@@ -4,6 +4,7 @@
   "description": "Fullstack JavaScript Development: MongoDB, Node.js, React.js",
   "main": "index.js",
   "scripts": {
+    "babel-version": "babel --version",
     "start": "nodemon --exec babel-node server.js --ignore public/",
     "dev": "webpack -wd"
   },
